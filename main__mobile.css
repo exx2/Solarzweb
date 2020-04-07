@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1000px){
+    *{
+        overflow-x: hidden;
+    }
+    .overview{
+        font-size: 50px;
+    }
+    span::before{
+        height: 50px;
+        width: 100px;
+    }
+    .box__button{
+        width: 20vh;
+        top: 80%;
+    }
+    a{
+        font-size:20px ;
+    }
+
+    .flex__square{
+        flex-direction: column;
+        flex-wrap: row;
+        height: 175vh;
+    }
+    .square__iteam{
+        height: 50vh;
+        width: 60vw;
+    }
+    .paragraf__first::before{
+        height: 50px;
+        width: 15px;
+    }
+    .triangle{
+        border-bottom: 60px solid transparent;
+    }
+    .heart{
+        left: 60%;
+        top: 10%;
+        height: 50px;
+        width: 50px;
+    }
+    @keyframes animacja  {
+        from{
+            top: 80%;
+        }
+        to{
+            top: 10%;
+        }
+    }
+    .paragraf__second{
+        color: transparent;
+    }
+    #section1{
+        height: 175vh;
+    }
+    li{
+        font-size: 15px;
+    }
+}

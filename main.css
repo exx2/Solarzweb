@@ -1,0 +1,263 @@
+* {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.overview {
+    font-size: 75px;
+    font-weight: 600;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+}
+
+span::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 216, 41);
+    width: 180px;
+    height: 80px;
+    z-index: -1;
+}
+
+a {
+    color: #111111;
+    line-height: 5vh;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.section__button {
+    display: flex;
+    justify-content: center;
+}
+
+.box__button {
+    height: 5vh;
+    width: 10vw;
+    background-color: #01FF70;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: absolute;
+    top: 90%;
+    transition: 3s ease-in-out;
+    -webkit-transition: 3s ease-in-out;
+    -moz-transition: 3s ease-in-out;
+    -ms-transition: 3s ease-in-out;
+    -o-transition: 3s ease-in-out;
+}
+
+.box__button:hover {
+    background-color: #0074D9;
+}
+
+.square__iteam {
+    height: 50vh;
+    width: 15vw;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.30);
+}
+
+.paragraf__box {
+    text-align: center;
+}
+
+.flex__square {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.fab.fa-html5 {
+    display: block;
+    text-align: center;
+    font-size: 75px;
+    color: rgb(255, 123, 0);
+    margin-top: 25px;
+}
+
+.fab.fa-css3-alt {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 75px;
+    color: rgb(29, 130, 219);
+}
+
+.card__body {
+    /* nic */
+}
+
+.fab.fa-js {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: #FFDC00;
+    font-size: 75px;
+}
+
+li {
+    list-style: none;
+}
+
+li:nth-of-type(2) {
+    margin-top: 10px;
+}
+
+ul {
+    padding: 0px 0px 0px 20px;
+}
+
+img {
+    height: 75vh;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+}
+
+/* .box{
+    height: 75vh;
+    width: 20vw;
+    position: absolute;
+    background-color: #39CCCC;
+    top: 15%;
+    left:80%;
+} */
+.paragraf__first::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 66, 247);
+    width: 25px;
+    height: 80px;
+    z-index: -1;
+}
+
+.paragraf__first,
+p {
+    margin: 0;
+    display: inline;
+}
+
+span {
+    display: inline;
+}
+
+.triangle {
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 60px solid rgb(164, 252, 0);
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 92%;
+    top: 90%;
+}
+
+.triangle:nth-of-type(2) {
+    left: 84%;
+}
+
+.triangle:nth-of-type(3) {
+    left: 76%;
+}
+
+.triangle:nth-of-type(4) {
+    top: 82%;
+    left: 80%;
+}
+
+.triangle:nth-of-type(5) {
+    top: 82%;
+    left: 88%;
+}
+
+.triangle:nth-of-type(6) {
+    top: 74%;
+    left: 84%;
+}
+
+.heart {
+    background-image:
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    top: 10px;
+    position: absolute;
+    left: 97%;
+    top: 2%;
+    animation: animacja ;
+    -webkit-animation: animacja 10s 1;
+}
+@keyframes animacja{
+    from{
+        top: 80%;
+        height: 50px;
+        width: 50px;
+    }
+    to{
+        top: 2%;
+        height: 32px;
+        width: 32px;
+    }
+}
+.paragraf__second{
+    font-weight: 600;
+    font-size: 30px;
+    position: absolute;
+    left: 85%;
+    top: 2%;
+
+}
+.fa-facebook-square{
+    font-size: 50px;
+    color: rgb(29, 66, 190);
+    position: absolute;
+    bottom: 60%;
+    right: 1%;
+    z-index: -1;
+}
+.fa-instagram{
+    position: absolute;
+    z-index: -1;
+    bottom: 50%;
+    right: 1%;
+    color: rgb(228, 196, 20);
+    font-size: 50px;
+}
+.instagram__icon{
+    color: transparent;
+    position: absolute;
+    bottom: 50%;
+    right: 1%;
+    font-size: 20px;
+}
+.facebook__icon{
+    color: transparent;
+    position: absolute;
+    bottom: 60%;
+    right: 1%;
+    font-size: 20px;
+}
